@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: medium;
+  font-style: normal;
+  font-family: none;
+
+  h1 {
+    text-align: center;
+  }
+
+  span {
+    text-decoration: underline;
+  }
+  
+  .avtor {
+    display: flex;
+    justify-content: end;
+    align-content: end;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  td,
+  th {
+    border: 1px solid;
+  }
+
+  th {
+    background-color: #ffdead;
+  }
+}
